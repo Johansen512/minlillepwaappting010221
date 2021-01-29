@@ -13,7 +13,9 @@ const Demo = ({
 
 <div><p>Latitude:{coords.latitude}</p>
 
-<p>Longitude:{coords.longitude}</p></div>
+<p>Longitude:{coords.longitude}</p>
+
+<p>Altitude:{coords.altitude}</p></div>
 
       ) : (<div>Getting the location data&hellip; </div> )
 }
