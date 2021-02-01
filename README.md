@@ -1,2 +1,0 @@
-# webappreactserviceworker
-reacts serviceworker
