@@ -10,8 +10,8 @@
 import { clientsClaim } from 'workbox-core';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
-import { registerRoute } from 'workbox-routing';
-import { StaleWhileRevalidate } from 'workbox-strategies';
+import { registerRoute, setCatchHandler, setDefaultHandler } from 'workbox-routing';
+import { NetworkOnly, StaleWhileRevalidate } from 'workbox-strategies';
 
 clientsClaim();
 
@@ -70,6 +70,32 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+
+//Cache Offline files
+precacheAndRoute([
+  {url: '/offline.html'},
+  {url: '/OfflineImg.jpg'},
+])
+
+setDefaultHandler (new NetworkOnly());
+
+setCatchHandler (({event}) => {
+  switch (event.request.destination){
+    case'document' :
+    caches.match ('/offline.html');
+    break;
+
+    case 'image':
+      caches.match ('OfflineImg.jpg');
+      break;
+
+      default:
+        return Response.error();
+  }
+})
+
+
 if (self.indexedDB){
   console.log ('indexedDB is supported');
 }
