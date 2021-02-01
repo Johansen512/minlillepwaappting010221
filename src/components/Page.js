@@ -6,7 +6,7 @@ const Page = () => {
         <h2>Dette er undersiden</h2>
 
         <img src={kode} alt="tu" />
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thebalancesmb.com%2Fstart-online-business-with-no-money-4128823&psig=AOvVaw0qWBZ1dT0X8emUp-6gOQM3&ust=1612255477753000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCND85dulyO4CFQAAAAAdAAAAABAN" alt="tut" />
+        <img src="https://cdn.pixabay.com/photo/2020/12/20/09/08/girl-5846483_960_720.jpg" alt="tut" />
         </div>     );
 }
  
