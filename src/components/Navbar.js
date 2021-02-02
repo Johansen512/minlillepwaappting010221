@@ -11,7 +11,7 @@ const Navbar = () => {
     margin: 0.5rem;
     padding: 0.5rem;
     background-color:#0089d1;
-    font-size: 3rem;
+    font-size: calc(1rem + 2vmin);
     height: 4rem;
     a{
         color: white;
