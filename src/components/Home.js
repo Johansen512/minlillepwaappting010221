@@ -1,5 +1,4 @@
 /**@jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
 import logo from '../logo.svg';
 import '../App.css';
 import React from 'react';
