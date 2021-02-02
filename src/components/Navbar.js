@@ -16,7 +16,7 @@ const Navbar = () => {
     a{
         color: white;
         text-decoration: none;
-        padding: 0.5rem;
+        padding: 0.4rem;
       }
     
     `;
