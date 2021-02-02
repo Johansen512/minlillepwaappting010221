@@ -27,6 +27,7 @@ const Navbar = () => {
 
     <Link to="/"> Forside </Link>  
     <Link to="/Page"> Side </Link>  
+    <Link to="/Anotherpage"> En anden side </Link>  
     
     </nav>
     

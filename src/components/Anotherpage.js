@@ -2,9 +2,9 @@
 import { css } from '@emotion/react';
 import '../App.css';
 import React from 'react';
-import kode from "../img/wiz.png"
+import kode from "../img/rainy.png"
 
-const Page = () => {
+const Anotherpage = () => {
 
     const PageStyling = css`
      display: flex;
@@ -23,12 +23,12 @@ const Page = () => {
 
     return (
 <div css={PageStyling}>
-        <h2>Dette er undersiden</h2>
-        <p>Er det her magien sker?</p>
+        <h2>Dette er en anden side</h2>
+        <p>Regnvejr er tegneserievejr</p>
 
         <img src={kode} alt="tu" />
         
         </div>     );
 }
  
-export default Page;
+export default Anotherpage;
