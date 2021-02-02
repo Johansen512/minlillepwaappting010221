@@ -4,6 +4,7 @@ import { Router } from '@reach/router';
 import OneSignal from "react-onesignal";
 import Home from "./components/Home";
 import Page from "./components/Page";
+import Navbar from "./components/Navbar"
 import Notfound from "./components/Notfound";
 import PWAPrompt from 'react-ios-pwa-prompt'
 OneSignal.initialize('bdd3a802-1273-48f5-96cb-ea87cd7f691d', {
@@ -12,14 +13,20 @@ OneSignal.initialize('bdd3a802-1273-48f5-96cb-ea87cd7f691d', {
 
 function App() {
   return (
-    <div> <Router>
+    <>
+    <Navbar />
+    
+      
+    <Router>
     <Home path= "/" />
-    <Page path="/page"/>
+    <Page path="/age"/>
     <Notfound default/>
 
     </Router>
 
-<PWAPrompt promptOnVisit={1} timesToShow={3} copyClosePrompt="Close" permanentlyHideOnDismiss={false}/></div>
+<PWAPrompt promptOnVisit={1} timesToShow={3} copyClosePrompt="Close" permanentlyHideOnDismiss={false}/>
+  
+</>
   );
 }
 
