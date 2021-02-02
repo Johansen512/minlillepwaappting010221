@@ -11,7 +11,7 @@ const Anotherpage = () => {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #332e92;
     color: white;
     
