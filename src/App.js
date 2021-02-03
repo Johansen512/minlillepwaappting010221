@@ -8,8 +8,8 @@ import Navbar from "./components/Navbar"
 import Notfound from "./components/Notfound";
 import PWAPrompt from 'react-ios-pwa-prompt'
 import Anotherpage from './components/Anotherpage';
-OneSignal.initialize('bdd3a802-1273-48f5-96cb-ea87cd7f691d', {
-  safari_web_id:"web.onesignal.auto.1947bcbb-3df5-45a5-b464-0be0e15f4a2c"
+OneSignal.initialize('91c782cf-3151-4837-a221-a05ac166070f', {
+  safari_web_id:"web.onesignal.auto.5d6ab6d2-4d0b-4ad8-b336-7f8ff3aff850"
 })
 
 function App() {
