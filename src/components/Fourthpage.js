@@ -24,7 +24,7 @@ const Fourthpage = () => {
     return (
 <div css={PageStyling}>
         <h2>Dette er en ny hemmelig side</h2>
-        <p>Er det her magien sker?</p>
+        <p>Er det her magien ikke sker?</p>
 
         <img src={kode} alt="tut" />
         
