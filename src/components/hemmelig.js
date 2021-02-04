@@ -25,7 +25,7 @@ const Hemmelig = () => {
 <div css={PageStyling}>
         <h2>Den hemmelige side ... Sssshhhh</h2>
         <p>Hvem er Dupond ... og hvem er Dupont?</p>
-        <p>Dette er test 500 for faen!!</p>
+        <p>Nu er det næstsidste gang jeg retter det her lort!</p>
         
         <img src={kode} alt="tu" />
         
