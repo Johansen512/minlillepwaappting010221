@@ -25,7 +25,7 @@ const Fourthpage = () => {
 <div css={PageStyling}>
         <h2>Dette er en ny hemmelig side</h2>
         <p>Hvem er Dupont ... og hvem er Dupond?</p>
-
+        <p>Testi Testi</p>
         <img src={imgsrc} alt="tut" />
         
         </div>     );
