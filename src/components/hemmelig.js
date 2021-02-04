@@ -4,7 +4,7 @@ import '../App.css';
 import React from 'react';
 import kode from "../img/dd.png"
 
-const Hemmelig = () => {
+const hemmelig = () => {
 
     const PageStyling = css`
      display: flex;
@@ -32,4 +32,4 @@ const Hemmelig = () => {
         </div>     );
 }
  
-export default Hemmelig;
+export default hemmelig;
