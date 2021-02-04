@@ -2,7 +2,7 @@
 import { css } from '@emotion/react';
 import '../App.css';
 import React from 'react';
-import kode from "../img/wiz.png"
+import imgsrc from "../img/wiz.png"
 
 const Page = () => {
 
@@ -26,7 +26,7 @@ const Page = () => {
         <h2>Dette er undersiden</h2>
         <p>Er det her magien sker?</p>
 
-        <img src={kode} alt="tu" />
+        <img src={imgsrc} alt="tu" />
         
         </div>     );
 }
