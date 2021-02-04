@@ -2,7 +2,7 @@
 import { css } from '@emotion/react';
 import '../App.css';
 import React from 'react';
-import kode from "../img/dd.png"
+import imgsrc from "../img/dd.png"
 
 const Fourthpage = () => {
 
@@ -24,9 +24,9 @@ const Fourthpage = () => {
     return (
 <div css={PageStyling}>
         <h2>Dette er en ny hemmelig side</h2>
-        <p>Er det her magien ikke sker?</p>
+        <p>Hvem er Dupont ... og hvem er Dupond?</p>
 
-        <img src={kode} alt="tut" />
+        <img src={imgsrc} alt="tut" />
         
         </div>     );
 }

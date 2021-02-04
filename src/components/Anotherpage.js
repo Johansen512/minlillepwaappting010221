@@ -2,7 +2,7 @@
 import { css } from '@emotion/react';
 import '../App.css';
 import React from 'react';
-import kode from "../img/rainy.png"
+import imgsrc from "../img/rainy.png"
 
 const Anotherpage = () => {
 
@@ -26,7 +26,7 @@ const Anotherpage = () => {
         <h2>Dette er en anden side</h2>
         <p>Regnvejr er tegneserievejr</p>
 
-        <img src={kode} alt="tu" />
+        <img src={imgsrc} alt="tu" />
         
         </div>     );
 }
