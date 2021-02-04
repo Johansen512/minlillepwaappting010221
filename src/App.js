@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar"
 import Notfound from "./components/Notfound";
 import PWAPrompt from 'react-ios-pwa-prompt'
 import Anotherpage from './components/Anotherpage';
-import Hemmelig from './components/hemmelig'
+import Hemmelig from './components/Hemmelig'
 OneSignal.initialize('91c782cf-3151-4837-a221-a05ac166070f', {
   safari_web_id:"web.onesignal.auto.5d6ab6d2-4d0b-4ad8-b336-7f8ff3aff850"
 })
