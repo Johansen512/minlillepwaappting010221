@@ -3,6 +3,7 @@ import { css } from '@emotion/react';
 
 import { Link } from "@reach/router";
 import React from 'react';
+import Actionbutton from './Actionbutton'
 
 const Navbar = () => {
 
@@ -29,6 +30,7 @@ const Navbar = () => {
     <Link to="/Page"> Side </Link>  
     <Link to="/Anotherpage"> En anden side </Link>  
     
+    <Actionbutton />
     </nav>
     
     );
