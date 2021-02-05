@@ -3,6 +3,8 @@ import { css } from '@emotion/react';
 import logo from '../logo.svg';
 import '../App.css';
 import React from 'react';
+import LightSpeed from 'react-reveal/LightSpeed';
+
 
 
 
@@ -30,7 +32,7 @@ const HomeStyle= css`
        
       </header>
 <section css={HomeStyle}>
-      <img src={logo} className="App-logo" alt="logo" />
+    <LightSpeed left><img src={logo} className="App-logo" alt="logo" /></LightSpeed>  
         <p>
           Velkommen til Fantasks mobile abonnements-service
         </p>
